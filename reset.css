@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+textarea, button, a {
+  font: inherit;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}

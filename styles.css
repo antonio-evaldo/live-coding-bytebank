@@ -1,0 +1,54 @@
+@import url("./reset.css");
+
+body {
+  min-height: 100vh;
+  font-family: 'Montserrat';
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 25% auto;
+}
+
+.menu-lateral {
+  background-color: #783EFD;
+  text-align: center;
+  padding: 56px 59px;
+}
+
+.logo-bytebank {
+  margin-bottom: 32px;
+}
+
+.avatar {
+  display: block;
+}
+
+.nome-usuario {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 56px;
+  color: #FFFFFF;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.divisoria {
+  width: 70%;
+  height: 0px;
+  border: 1px solid #FFFFFF;
+  margin: 0 auto 60px;
+}
+
+.links-navegacao {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.links-navegacao > a {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
